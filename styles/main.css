@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: sans-serif;
+    color: #000;
+    background: #fadadd;
+}
+
+section {
+    max-width: 600px;
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+  letter-spacing: 2px;
+font-family: cursive;
+font-size: 300%;
+font-stretch: expanded;
+justify-content: space-between;
+text-align: center;
+}
+
+
+header {
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    margin-left: 40px;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+article {
+  margin: 0px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+h2 {
+  text-align: justify;
+}
+
+.text {
+    color: #000;
+    background: #fff;
+    padding: 30px;
+    margin: 20px;
+    line-height: 20px;
+  }
+
+  .types {
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    border: gray;
+    background-color: #E8562A;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  #intro {
+    padding: 10px;
+    margin: 0px,
+  }
+
+#skinType {
+  border-bottom: dotted;
+}
+
+#Ingredients {
+  border-style: dotted;
+}
+
+#routine {
+  border-style: dotted;
+}
